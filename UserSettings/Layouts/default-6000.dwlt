@@ -1024,11 +1024,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0767527, y: -0.26963893, z: 0.021574672, w: -0.95969445}
     speed: 2
-    m_Value: {x: -0.07531026, y: -0.26966086, z: 0.021169338, w: -0.95977247}
+    m_Value: {x: -0.0767527, y: -0.26963893, z: 0.021574672, w: -0.95969445}
   m_Size:
     m_Target: 2.2684271
     speed: 2
-    m_Value: 2.1707437
+    m_Value: 2.2684271
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1286,7 +1286,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000018d30000b4d20000b6c40000
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
