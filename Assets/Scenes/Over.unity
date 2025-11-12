@@ -119,11 +119,47 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1374997929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1647521315459429739, guid: 32da08d80c154234c8fac53e61cfe10b, type: 3}
+  m_PrefabInstance: {fileID: 4318970209345179312}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1496633963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8365630011590399505, guid: 32da08d80c154234c8fac53e61cfe10b, type: 3}
   m_PrefabInstance: {fileID: 4318970209345179312}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1496633969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374997929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a48e0613bba6744b330c07e9a6f0bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitApplication
+--- !u!1 &1747253615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2948938227650492421, guid: 4cfd237799219eb458b2059c96b26015, type: 3}
+  m_PrefabInstance: {fileID: 9131910623760820288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1747253617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747253615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360d46a627010084986fc5985bed6441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Oscillator
+  speed: 0.5
+  movementVector: {x: 0, y: -28, z: 0}
 --- !u!1001 &1564055702198178244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -476,7 +512,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1647521315459429739, guid: 32da08d80c154234c8fac53e61cfe10b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1496633969}
   m_SourcePrefab: {fileID: 100100000, guid: 32da08d80c154234c8fac53e61cfe10b, type: 3}
 --- !u!1001 &7027169060700306978
 PrefabInstance:
@@ -604,6 +643,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2569139885694591679, guid: 4cfd237799219eb458b2059c96b26015, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948938227650492421, guid: 4cfd237799219eb458b2059c96b26015, type: 3}
+      propertyPath: m_Name
+      value: Falling Cliff
+      objectReference: {fileID: 0}
     - target: {fileID: 4567208393262655313, guid: 4cfd237799219eb458b2059c96b26015, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -651,7 +698,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2948938227650492421, guid: 4cfd237799219eb458b2059c96b26015, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1747253617}
   m_SourcePrefab: {fileID: 100100000, guid: 4cfd237799219eb458b2059c96b26015, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
